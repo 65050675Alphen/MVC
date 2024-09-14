@@ -78,6 +78,7 @@
                     .then(response => response.json())
                     .then(data => {
                         if (data.success) {
+                            console.log(data)
                             // อัปเดตจำนวนขวดนม
                             if (data.milkType == "Plain Milk") {
                                 let count = parseInt(plantmilkCount.textContent) || 0;
@@ -91,17 +92,17 @@
 
                             }
                             else {
+                                console.log('a')
                                 soymilkCount.textContent = `${count + 1} ขวด`;
-
-                                var resetEle = document.getElementById("resetButton");
-                                resetEle.classList.remove("disabled");
-
                                 alert(data.message); // แสดงข้อความยืนยัน
                             }
 
-                                document.getElementById('alert-box-message')?.remove();
+                            document.getElementById('alert-box-message')?.remove();
                                 
                         } else {
+                            var resetEle = document.getElementById("resetButton");
+                            resetEle.classList.remove("disabled");
+
                             alert(data.message); // แสดงข้อความผิดพลาด
                         }
                     })

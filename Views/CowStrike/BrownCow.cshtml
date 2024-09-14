@@ -79,14 +79,15 @@
                                 let count = parseInt(almondmilkCount.textContent) || 0;
                                 almondmilkCount.textContent = `${count + 1} ขวด`;
 
-                                var resetEle = document.getElementById("resetButton");
-                                resetEle.classList.remove("disabled");
+                                
                                 alert(data.message); // แสดงข้อความยืนยัน
                             }
 
                             document.getElementById('alert-box-message')?.remove();
 
                         } else {
+                                var resetEle = document.getElementById("resetButton");
+                                resetEle.classList.remove("disabled");
                             alert(data.message); // แสดงข้อความผิดพลาด
                         }
                     })
