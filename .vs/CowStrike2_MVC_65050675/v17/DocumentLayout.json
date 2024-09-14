@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\views\\cowstrike\\browncow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:views\\cowstrike\\browncow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\views\\cowstrike\\whitecow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:views\\cowstrike\\whitecow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\controllers\\cowstrikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:controllers\\cowstrikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\wwwroot\\cowdatasource\\cowdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:wwwroot\\cowdatasource\\cowdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\views\\cowstrike\\cowstrikemain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:views\\cowstrike\\cowstrikemain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|c:\\work_test\\mvc\\cowstrike2_mvc_65050675\\models\\cowstrikemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50137745-FD15-4EC8-B90B-644B3DED8607}|CowStrike2_MVC_65050675.csproj|solutionrelative:models\\cowstrikemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CowStrikeModel.cs",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Models\\CowStrikeModel.cs",
+              "RelativeDocumentMoniker": "Models\\CowStrikeModel.cs",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Models\\CowStrikeModel.cs",
+              "RelativeToolTip": "Models\\CowStrikeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:48:34.109Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CowData.json",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\wwwroot\\CowDataSource\\CowData.json",
+              "RelativeDocumentMoniker": "wwwroot\\CowDataSource\\CowData.json",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\wwwroot\\CowDataSource\\CowData.json",
+              "RelativeToolTip": "wwwroot\\CowDataSource\\CowData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T09:24:25.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CowStrikeController.cs",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Controllers\\CowStrikeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CowStrikeController.cs",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Controllers\\CowStrikeController.cs",
+              "RelativeToolTip": "Controllers\\CowStrikeController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAArwI0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:06:24.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CowStrikeMain.cshtml",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Views\\CowStrike\\CowStrikeMain.cshtml",
+              "RelativeDocumentMoniker": "Views\\CowStrike\\CowStrikeMain.cshtml",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Views\\CowStrike\\CowStrikeMain.cshtml",
+              "RelativeToolTip": "Views\\CowStrike\\CowStrikeMain.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T06:52:41.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrownCow.cshtml",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Views\\CowStrike\\BrownCow.cshtml",
+              "RelativeDocumentMoniker": "Views\\CowStrike\\BrownCow.cshtml",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Views\\CowStrike\\BrownCow.cshtml",
+              "RelativeToolTip": "Views\\CowStrike\\BrownCow.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:02:56.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:20:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WhiteCow.cshtml",
+              "DocumentMoniker": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Views\\CowStrike\\WhiteCow.cshtml",
+              "RelativeDocumentMoniker": "Views\\CowStrike\\WhiteCow.cshtml",
+              "ToolTip": "C:\\work_test\\MVC\\CowStrike2_MVC_65050675\\Views\\CowStrike\\WhiteCow.cshtml",
+              "RelativeToolTip": "Views\\CowStrike\\WhiteCow.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:02:20.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

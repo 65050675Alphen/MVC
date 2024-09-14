@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Cow Strike";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="container mt-5">
+        <form action="/CowStrike/search" method="get">
+            <!-- Label for text input -->
+            <div class="mb-3">
+                <label for="cowId" class="form-label">ค้นหารหัสวัว</label>
+                <input type="text" class="form-control" id="cowId" name="cowId" placeholder="กรอกรหัสวัว" required>
+            </div>
+
+            <!-- Search button -->
+            <button type="submit" class="btn btn-primary">ค้นหา</button>
+        </form>
+    </div>
+
+    <div><label>@ViewBag.ErrorMessage</label></div>
+</div>

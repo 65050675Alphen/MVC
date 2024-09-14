@@ -1,0 +1,146 @@
+﻿@model CowStrike2_MVC_65050675.Models.Cow
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+<h1>รายละเอียดวัว</h1>
+
+<div>
+    <h2>รหัสวัว: @Model.id</h2>
+    <p>พันธุ์: @Model.breed</p>
+    <p>อายุ: @Model.age.years ปี @Model.age.months เดือน</p>
+
+    <!-- ปุ่มรีดนม -->
+    <button type="button" class="btn btn-primary" id="milkButton">รีดนม</button>
+
+    <!-- ไอคอนและจำนวนขวดนม -->
+    <div class="milk-container mt-3">
+        <div><span>นมช็อกโกแลต</span><span id="ChocMilkCount" class="ml-2">0 ขวด</span></div>
+        <div><span>นมอัลมอนด์</span><span id="AlmondMilkCount" class="ml-2">0 ขวด</span></div>
+    </div>
+
+   @*  <button id="resetButton" class="btn btn-warning disabled">Reset วัว BSOD</button> *@
+    @if (Model.IsBSOD)
+    {
+        <button id="resetButton" class="btn btn-warning">Reset วัว BSOD</button>
+    }
+    else
+    {
+        <button id="resetButton" class="btn btn-warning disabled">Reset วัว BSOD</button>
+    }
+</div>
+
+@* @if (Model.IsBSOD)
+{
+   
+} *@
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success mt-3">
+        @ViewBag.Message
+    </div>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger mt-3">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@section Scripts {
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const milkButton = document.getElementById('milkButton');
+            const chocmilkCount = document.getElementById('ChocMilkCount');
+            const almondmilkCount = document.getElementById('AlmondMilkCount');
+
+            const cowId = '@Model.id'; // รหัสวัว
+
+            milkButton.addEventListener('click', function () {
+                if (confirm('คุณต้องการรีดนมวัวนี้ใช่ไหม?')) {
+                    fetch('@Url.Action("MilkAjax", "CowStrike")', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ cowId: cowId })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // อัปเดตจำนวนขวดนม
+                            if (data.milkType == "Chocolate Milk") {
+                                let count = parseInt(chocmilkCount.textContent) || 0;
+                                chocmilkCount.textContent = `${count + 1} ขวด`;
+                                alert(data.message); // แสดงข้อความยืนยัน
+                            }
+                            else {
+                                let count = parseInt(almondmilkCount.textContent) || 0;
+                                almondmilkCount.textContent = `${count + 1} ขวด`;
+
+                                var resetEle = document.getElementById("resetButton");
+                                resetEle.classList.remove("disabled");
+                                alert(data.message); // แสดงข้อความยืนยัน
+                            }
+
+                            document.getElementById('alert-box-message')?.remove();
+
+                        } else {
+                            alert(data.message); // แสดงข้อความผิดพลาด
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+                }
+            });
+
+            feedButton.addEventListener('click', function () {
+                fetch('@Url.Action("FeedLemon", "CowStrike")', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ cowId: cowId })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    if (data.success) {
+                        feedLemonStatus.textContent = data.message;
+                    } else {
+                    alert(data.message); // แสดงข้อความผิดพลาด
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            })
+        });
+        document.getElementById('resetButton')?.addEventListener('click', function () {
+            if (confirm('คุณต้องการรีเซ็ตสถานะวัวหรือไม่?')) {
+                const cowId = '@Model.id';
+                fetch('@Url.Action("ResetCow", "CowStrike")', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ cowId: cowId })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            alert('รีเซ็ตสถานะสำเร็จ!');
+                            location.reload(); // โหลดหน้าใหม่เพื่ออัปเดตสถานะ
+                        } else {
+                            alert('การรีเซ็ตล้มเหลว: ' + data.message);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        });
+    </script>
+}

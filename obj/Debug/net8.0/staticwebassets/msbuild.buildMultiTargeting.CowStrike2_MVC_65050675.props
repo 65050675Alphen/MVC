@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CowStrike2_MVC_65050675.props" />
+</Project>

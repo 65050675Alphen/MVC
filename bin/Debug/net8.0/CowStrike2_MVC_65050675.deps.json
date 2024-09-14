@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CowStrike2_MVC_65050675/1.0.0": {
+        "runtime": {
+          "CowStrike2_MVC_65050675.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CowStrike2_MVC_65050675/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
